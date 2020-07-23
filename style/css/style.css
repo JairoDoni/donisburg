@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing:border-box;
+}
+a{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.navred {
+  background-color: #d02329;
+}
+
+.rodape{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background:#242121;
+  margin-top: -50px;
+  margin-bottom:-50px;
+  height:200px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.rodape-conteudo{
+  justify-content: flex-end;
+}
+
+.buttonface {
+  border-radius: 0 0 8px 8px;
+}
+
+.hrwhite {
+  border-color: aliceblue;
+}
+
+.scrollspySite {
+  position: relative;
+  overflow: auto;
+  height: 700px;
+  transition: all 0.5s ease;
+}
+
+.borda {
+  border: 1px solid black;
+}
+
+.comentario-box{
+  background: #e9ecef;
+}
+
+.slides{
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram{
+  background: rgb(212,213,0);
+  background: -moz-linear-gradient(22deg, rgba(212,213,0,1) 0%, rgba(213,63,121,1) 35%, rgba(64,0,255,1) 90%);
+  background: -webkit-linear-gradient(22deg, rgba(212,213,0,1) 0%, rgba(213,63,121,1) 35%, rgba(64,0,255,1) 90%);
+  background: linear-gradient(22deg, rgba(212,213,0,1) 0%, rgba(213,63,121,1) 35%, rgba(64,0,255,1) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d4d500",endColorstr="#4000ff",GradientType=1);
+}
+.rede-social{
+  border: 2px solid red;
+}
+
+/* .scrollCss{
+  overflow: scroll;
+} */
+/* .text-right{
+  
+  float: right;
+} */
+
+/*# sourceMappingURL=style.css.map */
+@media (max-width: 1400px) {
+  .rodape-conteudo{
+    justify-content: center;
+  }
+}
